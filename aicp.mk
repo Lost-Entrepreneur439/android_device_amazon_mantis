@@ -15,9 +15,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 $(call inherit-product, device/amazon/mantis/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tv.mk)
+$(call inherit-product, vendor/aicp/configs/common_full_tv.mk)
 
-PRODUCT_NAME := lineage_mantis
+PRODUCT_NAME := aicp_mantis
 PRODUCT_DEVICE := mantis
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Amzn
